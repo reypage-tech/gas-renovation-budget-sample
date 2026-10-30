@@ -1,0 +1,338 @@
+{
+  "project": {
+    "name": "Maple Street remodel (sample)",
+    "contingencyRate": 0.1
+  },
+  "lists": {
+    "rooms": [
+      "Kitchen",
+      "Primary bath",
+      "Living room",
+      "Exterior",
+      "Whole house"
+    ],
+    "trades": [
+      "General",
+      "Plumbing",
+      "Electrical",
+      "Cabinetry",
+      "Flooring",
+      "Roofing"
+    ],
+    "statuses": [
+      "Open",
+      "Approved",
+      "Paid",
+      "Void"
+    ],
+    "vendors": [
+      "North Ridge Builders",
+      "Summit Trade Co",
+      "Harbor Line LLC",
+      "Valley Supply Group",
+      "Lakeview Mechanical"
+    ]
+  },
+  "budget": [
+    {
+      "room": "Kitchen",
+      "trade": "Cabinetry",
+      "lineItem": "Custom base and wall cabinets",
+      "estimate": 14200,
+      "actual": 13850
+    },
+    {
+      "room": "Kitchen",
+      "trade": "Plumbing",
+      "lineItem": "Sink, faucet, and rough-in",
+      "estimate": 4200,
+      "actual": 4450
+    },
+    {
+      "room": "Kitchen",
+      "trade": "Electrical",
+      "lineItem": "Circuits and under-cabinet lighting",
+      "estimate": 3100,
+      "actual": 2950
+    },
+    {
+      "room": "Kitchen",
+      "trade": "Flooring",
+      "lineItem": "Tile floor and transitions",
+      "estimate": 5800,
+      "actual": 6100
+    },
+    {
+      "room": "Primary bath",
+      "trade": "Plumbing",
+      "lineItem": "Shower, vanity, and trim",
+      "estimate": 8900,
+      "actual": 9200
+    },
+    {
+      "room": "Primary bath",
+      "trade": "General",
+      "lineItem": "Waterproofing and tile labor",
+      "estimate": 7600,
+      "actual": 7400
+    },
+    {
+      "room": "Primary bath",
+      "trade": "Electrical",
+      "lineItem": "Fan, heat, and GFCI updates",
+      "estimate": 2400,
+      "actual": 2380
+    },
+    {
+      "room": "Living room",
+      "trade": "General",
+      "lineItem": "Drywall patch and paint",
+      "estimate": 5200,
+      "actual": 4800
+    },
+    {
+      "room": "Living room",
+      "trade": "Flooring",
+      "lineItem": "Engineered hardwood refinish zone",
+      "estimate": 3900,
+      "actual": 4100
+    },
+    {
+      "room": "Exterior",
+      "trade": "Roofing",
+      "lineItem": "Shingle replacement (south slope)",
+      "estimate": 11200,
+      "actual": 11200
+    },
+    {
+      "room": "Exterior",
+      "trade": "General",
+      "lineItem": "Gutter and downspout reset",
+      "estimate": 2800,
+      "actual": 2650
+    },
+    {
+      "room": "Whole house",
+      "trade": "Electrical",
+      "lineItem": "Panel upgrade and labeling",
+      "estimate": 6800,
+      "actual": 7050
+    },
+    {
+      "room": "Whole house",
+      "trade": "General",
+      "lineItem": "Permits, dumpsters, and site protection",
+      "estimate": 4500,
+      "actual": 4500
+    }
+  ],
+  "bids": [
+    {
+      "trade": "Plumbing",
+      "bidderA": "Summit Trade Co",
+      "amountA": 12800,
+      "bidderB": "Lakeview Mechanical",
+      "amountB": 13150,
+      "bidderC": "Harbor Line LLC",
+      "amountC": 12450
+    },
+    {
+      "trade": "Electrical",
+      "bidderA": "Harbor Line LLC",
+      "amountA": 11200,
+      "bidderB": "Valley Supply Group",
+      "amountB": 10950,
+      "bidderC": "Summit Trade Co",
+      "amountC": 11400
+    },
+    {
+      "trade": "Cabinetry",
+      "bidderA": "North Ridge Builders",
+      "amountA": 15100,
+      "bidderB": "Valley Supply Group",
+      "amountB": 14200,
+      "bidderC": "Summit Trade Co",
+      "amountC": 14850
+    },
+    {
+      "trade": "Flooring",
+      "bidderA": "Summit Trade Co",
+      "amountA": 9800,
+      "bidderB": "North Ridge Builders",
+      "amountB": 9400,
+      "bidderC": "Harbor Line LLC",
+      "amountC": 9650
+    },
+    {
+      "trade": "Roofing",
+      "bidderA": "North Ridge Builders",
+      "amountA": 11800,
+      "bidderB": "Harbor Line LLC",
+      "amountB": 11200,
+      "bidderC": "Valley Supply Group",
+      "amountC": 12100
+    },
+    {
+      "trade": "General",
+      "bidderA": "North Ridge Builders",
+      "amountA": 22400,
+      "bidderB": "Summit Trade Co",
+      "amountB": 23100,
+      "bidderC": "Harbor Line LLC",
+      "amountC": 21850
+    }
+  ],
+  "changeOrders": [
+    {
+      "id": "CO-001",
+      "date": "2026-03-12",
+      "room": "Kitchen",
+      "trade": "Cabinetry",
+      "description": "Upgrade pull-out pantry hardware",
+      "amount": 850,
+      "status": "Approved"
+    },
+    {
+      "id": "CO-002",
+      "date": "2026-04-02",
+      "room": "Primary bath",
+      "trade": "Plumbing",
+      "description": "Add handheld shower set",
+      "amount": 420,
+      "status": "Approved"
+    },
+    {
+      "id": "CO-003",
+      "date": "2026-05-18",
+      "room": "Whole house",
+      "trade": "Electrical",
+      "description": "Two additional recessed cans in hall",
+      "amount": 680,
+      "status": "Open"
+    },
+    {
+      "id": "CO-004",
+      "date": "2026-02-20",
+      "room": "Living room",
+      "trade": "General",
+      "description": "Skim coat extra wall section",
+      "amount": 0,
+      "status": "Void"
+    }
+  ],
+  "draws": [
+    {
+      "draw": 1,
+      "milestone": "Mobilization and permits",
+      "pctOfBudget": 0.15,
+      "status": "Paid"
+    },
+    {
+      "draw": 2,
+      "milestone": "Rough plumbing and electrical",
+      "pctOfBudget": 0.25,
+      "status": "Paid"
+    },
+    {
+      "draw": 3,
+      "milestone": "Kitchen and bath finishes",
+      "pctOfBudget": 0.3,
+      "status": "Approved"
+    },
+    {
+      "draw": 4,
+      "milestone": "Exterior and final punch",
+      "pctOfBudget": 0.2,
+      "status": "Open"
+    },
+    {
+      "draw": 5,
+      "milestone": "Retainage release",
+      "pctOfBudget": 0.1,
+      "status": "Open"
+    }
+  ],
+  "payments": [
+    {
+      "date": "2026-02-05",
+      "vendor": "North Ridge Builders",
+      "draw": 1,
+      "room": "Whole house",
+      "trade": "General",
+      "amount": 12000,
+      "memo": "Draw 1 mobilization"
+    },
+    {
+      "date": "2026-02-28",
+      "vendor": "Lakeview Mechanical",
+      "draw": 2,
+      "room": "Kitchen",
+      "trade": "Plumbing",
+      "amount": 3200,
+      "memo": "Kitchen rough plumbing"
+    },
+    {
+      "date": "2026-03-10",
+      "vendor": "Harbor Line LLC",
+      "draw": 2,
+      "room": "Whole house",
+      "trade": "Electrical",
+      "amount": 4500,
+      "memo": "Panel and rough circuits"
+    },
+    {
+      "date": "2026-03-22",
+      "vendor": "Summit Trade Co",
+      "draw": 2,
+      "room": "Primary bath",
+      "trade": "Plumbing",
+      "amount": 4100,
+      "memo": "Bath rough plumbing"
+    },
+    {
+      "date": "2026-04-08",
+      "vendor": "Valley Supply Group",
+      "draw": 3,
+      "room": "Kitchen",
+      "trade": "Cabinetry",
+      "amount": 9000,
+      "memo": "Cabinet deposit and install"
+    },
+    {
+      "date": "2026-04-25",
+      "vendor": "Summit Trade Co",
+      "draw": 3,
+      "room": "Kitchen",
+      "trade": "Flooring",
+      "amount": 3500,
+      "memo": "Kitchen tile install"
+    },
+    {
+      "date": "2026-05-06",
+      "vendor": "North Ridge Builders",
+      "draw": 3,
+      "room": "Primary bath",
+      "trade": "General",
+      "amount": 5200,
+      "memo": "Bath tile and waterproofing"
+    },
+    {
+      "date": "2026-05-20",
+      "vendor": "Harbor Line LLC",
+      "draw": 3,
+      "room": "Living room",
+      "trade": "General",
+      "amount": 2800,
+      "memo": "Living room paint phase"
+    },
+    {
+      "date": "2026-06-02",
+      "vendor": "North Ridge Builders",
+      "draw": 4,
+      "room": "Exterior",
+      "trade": "Roofing",
+      "amount": 8000,
+      "memo": "Roofing progress payment"
+    }
+  ]
+}
