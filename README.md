@@ -1,6 +1,6 @@
 # gas-renovation-budget-sample
 
-Turns matching each room's estimated budget against actual spend by hand into one sheet that shows the variance and any overrun by line item.
+Replaces hand-matching each room's estimate against actual spend with one sheet that shows the variance and any overrun by line item.
 
 ![Executive Dashboard](dist/screens/01_dashboard.png)
 

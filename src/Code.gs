@@ -1,5 +1,5 @@
 /**
- * Renovation budget sample — Google Sheets setup and helpers.
+ * Renovation budget sample: Google Sheets setup and helpers.
  * Author: reypage-tech
  */
 
