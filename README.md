@@ -1,18 +1,24 @@
 # gas-renovation-budget-sample
 
-Sell-ready renovation and construction budget tracker for Google Sheets, with a matching Excel workbook export. All figures are fictional for a sample project named **Maple Street remodel (sample)**. Author: **reypage-tech**.
+Turns matching each room's estimated budget against actual spend by hand into one sheet that shows the variance and any overrun by line item.
+
+![Executive Dashboard](dist/screens/01_dashboard.png)
+
+Mock output from local tests with fictional data, not a live client project.
+
+A renovation and construction budget tracker for Google Sheets, with a matching Excel workbook export, for contractors and homeowners tracking a remodel's estimate, actual spend, bids, change orders, and draws in one workbook. All figures are fictional for a sample project named **Maple Street remodel (sample)**.
 
 ## What you get
 
-- **Executive Dashboard** — KPIs, room summary, monthly spend (on-dashboard), and charts
-- **Line-Item Budget & Actuals** — estimate, actual, variance, overrun highlighting
-- **Contractor Bid Leveling** — three bids per trade with lowest bid highlighted
-- **Contingency & Change Order Log** — change orders and status lists
-- **Draws & Milestone Payments** — milestone draws plus payment log on one tab
+- **Executive Dashboard**: KPIs, room summary, monthly spend (on-dashboard), and charts
+- **Line-Item Budget & Actuals**: estimate, actual, variance, overrun highlighting
+- **Contractor Bid Leveling**: three bids per trade with lowest bid highlighted
+- **Contingency & Change Order Log**: change orders and status lists
+- **Draws & Milestone Payments**: milestone draws plus payment log on one tab
 - Hidden **Lists** tab for validation lists
 - Formula cells locked; editable inputs use light blue fill (`#DDEBF7`) under sheet protection (no password)
 
-## Google Sheets — import and share
+## Google Sheets: import and share
 
 ### Option A: Upload the Excel sample
 
@@ -80,6 +86,7 @@ Sample template for demonstration. Adapt for your own projects.
 
 ## Screenshots
 
-![Executive Dashboard](dist/screens/01_dashboard.png)
+These are static renders of sheets from the locally built `dist/renovation_budget_sample.xlsx`, not a recording from a real Google account. Separately, `test/test_xlsx.py` rebuilds the workbook, opens a copy with LibreOffice headless to recalculate every formula, and fails if any cell holds a `#REF`, `#NAME`, or other error value.
+
 ![Line-Item Budget & Actuals](dist/screens/02_budget_actuals.png)
 ![Contractor Bid Leveling](dist/screens/03_bid_leveling.png)
